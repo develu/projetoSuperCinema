@@ -3,13 +3,13 @@
 .slider {
     margin: 0 auto;
     width: 1250px;
-    height: 400px;
+    height: 600px;
     overflow: hidden;
 }
 
 .slides {
     width: 400%;
-    height: 400px;
+    height: 600px;
     display: flex;
 }
 
@@ -25,12 +25,13 @@
 
 .slide img {
     width: 1280px;
+    height: 600px;
 }
 
 .manual-navigation {
     position: absolute;
     width: 1250px;
-    margin-top: -40px;
+    margin-top: -240px;
     display: flex;
     justify-content: center;
 }
