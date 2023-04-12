@@ -1,15 +1,21 @@
 @charset "utf-8";
 
 body {
-background-color: beige;
+    width: 1250px;
+    height: auto;
+    margin: auto;
+    background-color: azure;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0, .5);
 }
 
 #corpo {
-    width: 700px;
+    width: 1230px;
     background-color: azure;
-    margin: 0px 270px 0px 270px;
     box-shadow: 2px 2px 20px black;
-    padding: 0px 10px 170px 10px;
+    padding: 10px 10px 200px 10px;
+    margin: auto;
+    font-size: 20px;
+
 }
 
 .img_fotos {
@@ -28,54 +34,68 @@ background-color: beige;
 
 p {
     text-align: justify;
-    text-indent: 20px;
+
 }
-article {
+
+section {
     width: 1250px;
-    height: 50px;
+    height: 100px;
     border: 1px solid brown;
-    background-color:brown;
-    }
-    
-    
-    
-    
-    article{
+    background-color: brown;
     display: block;
-    }
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+    margin: 0px auto 0px auto;
+    margin-right: 20px;
+
+}
+
+
+
+section ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: relative;
+    text-align: justify;
+    top: -10px;
     
-    article ul {
-        list-style: none;
-        text-transform: uppercase;
-        position: relative;
-        text-align:justify;
-        top: -10px;
-        left: 10px;
-    }
-    article {
-        justify-content: center;
-        
-         margin: 0px auto 0px auto;
-    }
-    article li {
-        display: inline-block;
-        background-color:brown;
-        padding: 8px ;
-       margin: 2px;
-       
-        transition: background-color 1s;
-    }
-    
-    
-    article a {
-        color: black;
-        text-decoration: none;
-    }
-    article a:hover {
-        color: #ffffff;
-    }
-    article li:hover {
-        background-color:red;
-    }
-    
-    
+}
+
+
+
+
+section li {
+    display: inline-block;
+    background-color: brown;
+    padding: 8px;
+    margin: 2px;
+    transition: background-color 1s;
+}
+
+
+section a {
+    color: black;
+    text-decoration: none;
+}
+
+section a:hover {
+    color: #ffffff;
+}
+
+section li:hover {
+    background-color: rgb(152, 29, 29);
+
+}
+
+footer {
+    width: 1250px;
+    height: 100px;
+    border: 1px solid green;
+    background-color: burlywood;
+}
+
+footer p {
+    padding: 10px;
+    text-align: center;
+}

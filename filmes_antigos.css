@@ -1,14 +1,17 @@
 @charset "utf-8";
 
-main {
-    width: 700px;
+body {
+    width: 1250px;
     height: auto;
-    padding: 0px 10px;
+}
+
+main {
+    width: auto;
+    height: auto;
+    font-size: 20px;
     text-align: justify;
     background-color: azure;
-    padding: 0px 10px 10px 10px;
-    margin: 0px 270px 0px 270px;
+    padding: 10px 10px 10px 10px;
+    size: 20px;
     box-shadow: 2px 2px 20px black;
 }
-    
-   

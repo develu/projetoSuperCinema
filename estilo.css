@@ -5,7 +5,8 @@ body {
     width: 1250px;
     height: auto;
     margin: auto;
-    box-shadow: 2px 2px 10px rgba(0,0,0,0,.5) ;
+    background-color: azure;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0, .5);
 }
 
 header {
@@ -33,7 +34,8 @@ nav#navegacao ul {
     text-transform: uppercase;
     position: relative;
     top: -10px;
-    left: 312px;
+    left: 450px;
+    
 }
 
 nav#navegacao li {
@@ -69,36 +71,33 @@ main#conteudo {
     align-items: center;
 }
 
-article {
+section {
     width: 1250px;
     height: 100px;
     border: 1px solid brown;
     background-color: brown;
 }
 
-
-
-
-article {
+section {
     display: block;
 }
 
-article ul {
+section ul {
     list-style: none;
     text-transform: uppercase;
     position: relative;
     text-align: justify;
     top: -10px;
-    left: 312px;
+    left: 400px;
 }
 
-article {
+section {
     justify-content: center;
 
     margin: 0px auto 0px auto;
 }
 
-article li {
+section li {
     display: inline-block;
     background-color: brown;
     padding: 8px;
@@ -107,21 +106,19 @@ article li {
 }
 
 
-article a {
+section a {
     color: black;
     text-decoration: none;
 }
 
-article a:hover {
+section a:hover {
     color: #ffffff;
 }
 
-article li:hover {
+section li:hover {
     background-color: rgb(152, 29, 29);
 
 }
-
-
 
 footer {
     width: 1250px;

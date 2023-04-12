@@ -1,11 +1,133 @@
 @charset "utf-8";
 
+@charset "utf-8";
+
+
+body {
+    width: 1250px;
+    height: auto;
+    margin: auto;
+    background-color: azure;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0, .5);
+}
+
+header {
+    width: 1250px;
+    height: auto;
+    border: 1px solid brown;
+    background-color: #979797;
+
+
+}
+
+nav {
+    width: 1250px;
+    height: 50px;
+    border: 1px solid black;
+    background-color: brown;
+}
+
+nav#navegacao {
+    display: block;
+}
+
+nav#navegacao ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: relative;
+    top: -10px;
+    left: 450px;
+    
+}
+
+nav#navegacao li {
+    display: inline-block;
+    background-color: brown;
+    padding: 8px;
+    margin: 2px;
+    transition: background-color 1s;
+}
+
+nav#navegacao li:hover {
+    background-color: rgb(152, 29, 29);
+}
+
+nav#navegacao a {
+    color: black;
+    text-decoration: none;
+}
+
+nav#navegacao a:hover {
+    color: #ffffff;
+}
+
 #conteudo {
     width: 465px;
     height: 326px;
 
     border: 3px solid red;
     margin: 0px auto 400px auto;
+}
+
+section {
+    width: 1250px;
+    height: 100px;
+    border: 1px solid brown;
+    background-color: brown;
+}
+
+section {
+    display: block;
+}
+
+section ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: relative;
+    text-align: justify;
+    top: -10px;
+    left: 400px;
+}
+
+section {
+    justify-content: center;
+
+    margin: 0px auto 0px auto;
+}
+
+section li {
+    display: inline-block;
+    background-color: brown;
+    padding: 8px;
+    margin: 2px;
+    transition: background-color 1s;
+}
+
+
+section a {
+    color: black;
+    text-decoration: none;
+}
+
+section a:hover {
+    color: #ffffff;
+}
+
+section li:hover {
+    background-color: rgb(152, 29, 29);
+
+}
+
+footer {
+    width: 1250px;
+    height: 100px;
+    border: 1px solid green;
+    background-color: burlywood;
+}
+
+footer p {
+    padding: 10px;
+    text-align: center;
 }
 
 
