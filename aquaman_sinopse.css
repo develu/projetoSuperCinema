@@ -9,14 +9,13 @@ body {
 }
 
 main {
-    width: 1230px;
+    width: 1250px;
     height: auto;
-    text-align: justify;
+    
     background-color: azure;
     font-size: 20px;
     box-shadow: 2px 2px 20px black;
-    margin: auto;
-    padding: 10px;
+  padding-bottom: 10px;
 }
 
 p {
@@ -42,7 +41,8 @@ section ul {
     position: relative;
     text-align: justify;
     top: -10px;
-    margin-left: -200px;
+   margin-right: auto;
+   margin-left: auto;
 }
 
 section li {
