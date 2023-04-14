@@ -35,7 +35,7 @@ nav#navegacao ul {
     position: relative;
     top: -10px;
     left: 450px;
-    
+
 }
 
 nav#navegacao li {
@@ -69,17 +69,18 @@ main#conteudo {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 500px;
 }
+
 
 section {
     width: 1250px;
     height: 100px;
     border: 1px solid brown;
     background-color: brown;
-}
-
-section {
     display: block;
+    justify-content: center;
+    margin-top: 100px;
 }
 
 section ul {
@@ -88,13 +89,7 @@ section ul {
     position: relative;
     text-align: justify;
     top: -10px;
-    left: 400px;
-}
-
-section {
-    justify-content: center;
-
-    margin: 0px auto 0px auto;
+    
 }
 
 section li {
