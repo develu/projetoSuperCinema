@@ -11,11 +11,11 @@ body {
 main {
     width: 1250px;
     height: auto;
-    
+    margin-top: -22px;
     background-color: azure;
     font-size: 20px;
     box-shadow: 2px 2px 20px black;
-  padding-bottom: 10px;
+    padding-bottom: 10px;
 }
 
 p {
@@ -40,9 +40,9 @@ section ul {
     text-transform: uppercase;
     position: relative;
     text-align: justify;
-    top: -10px;
-   margin-right: auto;
-   margin-left: auto;
+    top: 10px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 section li {
@@ -118,53 +118,6 @@ nav#navegacao a {
 
 nav#navegacao a:hover {
     color: #ffffff;
-}
-
-section {
-    width: 1250px;
-    height: 100px;
-    border: 1px solid brown;
-    background-color: brown;
-}
-
-section {
-    display: block;
-}
-
-section ul {
-    list-style: none;
-    text-transform: uppercase;
-    position: relative;
-    text-align: justify;
-    top: -10px;
-    left: 400px;
-}
-
-section {
-    justify-content: center;
-    margin: 0px auto 0px auto;
-}
-
-section li {
-    display: inline-block;
-    background-color: brown;
-    padding: 8px;
-    margin: 2px;
-    transition: background-color 1s;
-}
-
-section a {
-    color: black;
-    text-decoration: none;
-}
-
-section a:hover {
-    color: #ffffff;
-}
-
-section li:hover {
-    background-color: rgb(152, 29, 29);
-
 }
 
 footer {
