@@ -8,8 +8,6 @@
     , initial-scale=1.0">
         <title>Contato</title>
         <link rel="stylesheet" href="estilo.css">
-        <link rel="stylesheet" href="slide.css">
-        <link rel="stylesheet" href="contact.css">
 </head>
 
 
@@ -25,49 +23,55 @@
                         <li> <a href="programacao.html"> Programaçao </a> </li>
                         <li> <a href="contato.html"> Contato </a> </li>
                 </ul>
-        
+
         </nav>
 
+        <main>
+                <h1> Contato </h1>
 
-        <h1> Contato </h1>
+                <form method="post" id="id_formulario" action=" mailto: veluccg@mail.com">
 
-        <form method="post" id="id_formulario" action=" mailto: veluccg@mail.com">
+                        <fieldset id="id_contato">
+                                <legend>Fale Conosco</legend>
 
-                <fieldset id="id_contato">
-                        <legend>Fale Conosco</legend>
+                                <p>
+                                        <label for="id_nome">Nome:</label>
+                                        <input type="text" name="n_nome" id="id_nome" size="30" maxlength="30"
+                                                placeholder="Digite seu nome" required>
+                                </p>
 
-                        <p>
-                                <label for="id_nome">Nome:</label>
-                                <input type="text" name="n_nome" id="id_nome" size="30" maxlength="30"
-                                        placeholder="Digite seu nome" required>
-                        </p>
+                                <p>
+                                        <label for="id_telefone">Telefone:</label>
+                                        <input type="text" name="n_telefone" id="id_telefone" size="11" maxlength="11"
+                                                placeholder="digite seu numero" required>
+                                </p>
 
-                        <p>
-                                <label for="id_telefone">Telefone:</label>
-                                <input type="text" name="n_telefone" id="id_telefone" size="11" maxlength="11"
-                                        placeholder="digite seu numero" required>
-                        </p>
+                                <p>
+                                        <label for="id_email">Email:</label>
+                                        <input type="text" name="n_email" id="id_email" size="20" maxlength="20"
+                                                placeholder="digite seu email">
+                                </p>
 
-                        <p>
-                                <label for="id_email">Email:</label>
-                                <input type="text" name="n_email" id="id_email" size="20" maxlength="20"
-                                        placeholder="digite seu email">
-                        </p>
+                                <p>
+                                        <label for="id_mensagem">Mensagem:</label>
+                                        <textarea name="n_mensagem" id="id_mensagem" cols="40" rows="10"
+                                                placeholder="Deixe aqui sua mensagem"></textarea>
 
-                        <p>
-                                <label for="id_mensagem">Mensagem:</label>
-                                <input type="text" name="n_mensagem" id="id_mensagem" size="30" maxlength="30"
-                                        placeholder="digite sua mensagem">
-                        </p>
 
-                        <p>
-                                <input type="submit" value="Enviar" id="id_enviar" name="n_enviar">
-                        </p>
+                                </p>
 
-                </fieldset>
-        </form>
+                                <p>
+                                        <input type="submit" value="Enviar" id="id_enviar" name="n_enviar">
+                                </p>
 
-        <section>
+                        </fieldset>
+                </form>
+
+        </main>
+        <br>
+        <br>
+        <br>
+        <section id="id_menu_inferior">
                 <ul>
                         <li><a href="estreia.html"> estréias</a> </li>
                         <li> <a href="filmes_antigos.html">filme antigos</a> </li>
