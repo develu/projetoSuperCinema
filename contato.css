@@ -68,7 +68,7 @@ nav#navegacao ul {
     list-style: none;
     text-transform: uppercase;
     position: relative;
-    margin-top: 10px;
+    margin-top: 12px;
 
 
 }
@@ -79,7 +79,7 @@ nav#navegacao li {
     padding: 8px;
     margin: 2px;
     transition: background-color 1s;
-    font-size: 20px;
+   
 }
 
 nav#navegacao li:hover {
@@ -111,8 +111,7 @@ list-style: none;
 text-transform: uppercase;
 position: relative;
 margin-top: 30px;
-
-margin-left: 312px;
+text-align: center;
 
 }
 
@@ -123,7 +122,7 @@ section li {
     padding: 8px;
     margin: 2px;
     transition: background-color 1s;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 section a {
