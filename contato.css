@@ -53,6 +53,7 @@ label {
 
 
 
+
 nav {
     width: 1250px;
     height: 50px;
@@ -68,8 +69,8 @@ nav#navegacao ul {
     list-style: none;
     text-transform: uppercase;
     position: relative;
-    margin-top: 12px;
-
+    top: -10px;
+    left: 450px;
 
 }
 
@@ -79,7 +80,6 @@ nav#navegacao li {
     padding: 8px;
     margin: 2px;
     transition: background-color 1s;
-   
 }
 
 nav#navegacao li:hover {
