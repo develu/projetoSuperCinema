@@ -95,49 +95,6 @@ nav#navegacao a:hover {
     color: #ffffff;
 }
 
-section {
-    width: 1250px;
-    height: 100px;
-    background-color: brown;
-    display: block;
-    text-align: justify;
-   margin: auto;
-
-  
-
-}
-section ul {
-list-style: none;
-text-transform: uppercase;
-position: relative;
-margin-top: 30px;
-text-align: center;
-
-}
-
-
-section li {
-    display: inline-block;
-    background-color: brown;
-    padding: 8px;
-    margin: 2px;
-    transition: background-color 1s;
-    font-size: 18px;
-}
-
-section a {
-    color: black;
-    text-decoration: none;
-}
-
-section a:hover {
-    color: #ffffff;
-}
-
-section li:hover {
-    background-color: rgb(152, 29, 29);
-}
-
 
 footer {
     width: 1250px;

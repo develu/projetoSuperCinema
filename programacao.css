@@ -78,52 +78,6 @@ ul#programacao_fotos li {
     
 }
 
-
-
-section {
-    width: 1250px;
-    height: 100px;
-    background-color: brown;
-}
-
-section {
-    display: block;
-}
-
-section ul {
-    list-style: none;
-    text-transform: uppercase;
-    position: relative;
-    text-align: justify;
-    top: -10px;
-    left: 400px;
-}
-
-section {
-    justify-content: center;
-    margin: 0px auto 0px auto;
-}
-
-section li {
-    display: inline-block;
-    background-color: brown;
-    transition: background-color 1s;
-}
-
-section a {
-
-    text-decoration: none;
-}
-
-section a:hover {
-    color: #ffffff;
-}
-
-section li:hover {
-    background-color: rgb(152, 29, 29);
-
-}
-
 footer {
     width: 1250px;
     height: 100px;
