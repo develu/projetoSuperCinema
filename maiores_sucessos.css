@@ -50,9 +50,9 @@ section ul {
     list-style: none;
     text-transform: uppercase;
     position: relative;
-    text-align: justify;
+    text-align: center;
     top: 10px;
-    margin-left: 313px;
+
 }
 section li {
     display: inline-block;
